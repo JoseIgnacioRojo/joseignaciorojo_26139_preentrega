@@ -1,0 +1,20 @@
+Consiga y sus opcionales:
+
+*Se agregó cantidad(stock).
+*Se agregó funcionalidad buscar productos por nombre exacto.
+*Se puede actualizar cantidad y/o precio.
+*Se puede eliminar de a un producto (de stock) con confirmación.
+*Clase Pedido con manejos de pedido.
+*Excepción personalizada StockInsuficienteException. 	
+
+
+Mejoras que hice para poder reusar en cualquier otro proyecto:
+
+*Package Input:
+	 Clase IngresarNro: para ingresar desde teclado valores válidos Int y Doublé.
+ 	 Clase IngresarTexto: para ingresar desde teclado valores válidos String.
+*Package Menu:
+	 Clase MenuPral.
+*En clase Categoria se movieron todos los métodos que tienen que ver con la categoría.
+*Todos los métodos que tienen que ver con manejo de productos (que estaban en la clase App de la clase 5) se movieron a la clase Producto.
+*Se puede actualizar nombre y/o categoría del producto también.
